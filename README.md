@@ -1,17 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
-
-namespace Regular
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
             #region 1. Сheck mail
 
             Console.WriteLine("Input your e-mail: ");
@@ -60,7 +46,3 @@ namespace Regular
             Console.WriteLine();
 
             #endregion
-
-        }
-    }
-}
